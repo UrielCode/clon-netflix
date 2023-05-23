@@ -35,7 +35,7 @@ const Navbar = () => {
       ) : (
         <div className="text-center">
           <Link to='/login'>
-            <button className="text-white">Iniciar sesión</button>
+            <button className="text-white md:mx-3">Iniciar sesión</button>
           </Link>
           <Link to='/signup'>
             <button className="bg-red-600 px-6 py-2 rounded cursor-pointer md:ml-5 text-white">Registrase</button>
